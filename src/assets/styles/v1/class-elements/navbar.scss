@@ -1,0 +1,21 @@
+nav, .sbx-navbar, #sbx-navbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: auto 0;
+  padding: auto 0;
+
+  .sbx-navbar-brand, #sbx-navbar-brand {
+    white-space: nowrap;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #toggler, toggler, .toggler {
+    display: none;
+  }
+}

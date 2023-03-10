@@ -1,0 +1,63 @@
+input {
+
+  &[type=button], &[type=submit] {
+    background-color: $sbx-button-background-color;
+    cursor: pointer;
+    font-weight: 600;
+    padding-bottom: $sbx-button-padding-x;
+    padding-left: $sbx-button-padding-y;
+    padding-right: $sbx-button-padding-y ;
+    padding-top: $sbx-button-padding-x;
+    
+    &:hover {
+      background-color: $sbx-button-background-hover-color;
+      cursor: pointer;
+      color: $sbx-button-font-hover-color;
+    }
+  }
+
+  &[type=checkbox] {
+  
+  }
+  
+  &[type=file] {
+
+  }
+  
+  &:focus:not([type=button]):not([type=checkbox]) {
+
+  }
+  
+  &::placeholder {
+
+  }
+
+  &:disabled {
+    
+  }
+
+  &:hover:not(:disabled):not([readonly])::file-selector-button {
+
+  }
+}
+
+button {
+  background-color: $sbx-button-background-color;
+  border-style: solid;
+  cursor: pointer;
+  font-weight: 600;
+  padding-bottom: $sbx-button-padding-x;
+  padding-left: $sbx-button-padding-y;
+  padding-right: $sbx-button-padding-y ;
+  padding-top: $sbx-button-padding-x;
+  transition: all .3s ease-out;
+  width: 100%;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  
+  &:hover {
+    background-color: $sbx-button-background-hover-color;
+    cursor: pointer;
+    color: $sbx-button-font-hover-color;
+  }
+}

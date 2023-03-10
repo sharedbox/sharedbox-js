@@ -1,0 +1,27 @@
+/**************** Grid ***************/
+$sbx-grid-columns                      : 12 !default;
+$sbx-grid-breakpoints                  : (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px) !default;
+
+/************** Margin ***************/
+$sbx-margin-default-sm-value           : .75rem !default;
+$sbx-margin-default-md-value           : 1.3em !default;
+
+/************** Padding **************/
+$sbx-padding-default-sm-value          : .75rem !default;
+$sbx-padding-default-md-value          : 1.3em !default;
+
+/**/
+$sbx-shadow-defaut                     :  0px 2px 6px -1px rgba(0,0,0,.12) !default;
+
+/************ Width screen ***********/
+$sbx-width-screen-xl                   : 75rem !default;
+$sbx-width-screen-lg                   : 56.25rem !default;
+$sbx-width-screen-md                   : 48rem !default;
+$sbx-width-screen-sm                   : 36rem !default;
+
+/*************** Button **************/
+$sbx-button-background-color           : #fff !default;
+$sbx-button-background-hover-color     : #000 !default;
+$sbx-button-font-hover-color           : #fff !default;
+$sbx-button-padding-x                  : $sbx-margin-default-sm-value;
+$sbx-button-padding-y                  : $sbx-margin-default-md-value;

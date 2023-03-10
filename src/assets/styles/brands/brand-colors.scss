@@ -1,0 +1,90 @@
+/************ Gray colors ************/
+$white                           : #fff !default;
+$gray-100                        : #f8f9fa !default;
+$gray-200                        : #e9ecef !default;
+$gray-300                        : #dee2e6 !default;
+$gray-400                        : #ced4da !default;
+$gray-500                        : #adb5bd !default;
+$gray-600                        : #6c757d !default;
+$gray-700                        : #495057 !default;
+$gray-800                        : #343a40 !default;
+$gray-900                        : #212529 !default;
+$black                           : #000 !default;
+
+/********* Facebook Colors ***********/
+$facebook-color-1                : #1877f2;
+
+/******** Garage 2.0 Colors **********/
+$garage-20-color-1               : #283745;
+$garage-20-color-2               : #F47015;
+$garage-20-color-3               : $white;
+
+/******* Intagram Colors *********/
+$intagram-color-1                : #405DE6;
+$intagram-color-2                : #5B51D8;
+$intagram-color-3                : #833AB4;
+$intagram-color-4                : #C13584;
+$intagram-color-5                : #E1306C;
+$intagram-color-6                : #FD1D1D;
+$intagram-color-7                : #F56040;
+$intagram-color-8                : #F77737;
+$intagram-color-9                : #FCAF45;
+$intagram-color-10               : #FFDC80;
+$intagram-color-11: radial-gradient(circle at 30% 107%
+                            , $intagram-color-10 0%
+                            , $intagram-color-10 5%
+                            , $intagram-color-6 45%
+                            , $intagram-color-4 60%
+                            , $intagram-color-1 90%);
+$intagram-color-12: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
+/********* YouTube Colors ************/
+$youtube-color-1:   #ff0000;
+
+/************* Colors ***************/
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #ff0019 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+
+.sbx-blue-green {
+  color: $blue !important;
+}
+
+.sbx-color-green {
+  color: $green !important;
+}
+
+.sbx-color-red {
+  color: $red !important;
+}
+
+.sbx-orange-red {
+  color: $orange !important;
+}
+
+/** Css class with font color brand ***/
+.sbx-facebook {
+  color: $facebook-color-1;
+}
+
+.sbx-intagram {
+  color: $white;
+  background-clip: text;
+  background: $intagram-color-11 !important;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sbx-youtube {
+  color: $youtube-color-1;
+}
+ 
+
+

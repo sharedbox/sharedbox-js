@@ -1,0 +1,48 @@
+:root, :host {
+  --sb-transport: normal 400 1em/1 "SharedBox Transport Regular"; 
+}
+
+@font-face {
+  font-family: 'SharedBox Transport Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("./../../fonts/icons/SharedBoxTransport-Regular.ttf");
+}
+
+.sb-transport {
+  font-family: 'SharedBox Transport Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Car */
+.sb-car:before {
+  content: "\e049";
+}
+
+/* Search car */
+.sb-search-car:before {
+  content: "\e007";
+}
+
+/* Car buy */
+.sb-car-buy:before {
+  content: "\e013";
+}
+
+/* Car sale */
+.sb-car-sale:before {
+  content: "\e01a";
+}
+
+/* Car service */
+.sb-car-service:before {
+  content: "\e01e";
+}
+
+/* Piston */
+.sb-piston:before {
+  content: "\e052";
+}
+

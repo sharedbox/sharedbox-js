@@ -1,0 +1,46 @@
+{
+  "name": "sharedbox-js",
+  "version": "1.0.8",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "cp-fonts": "xcopy src\\assets\\fonts\\* dist\\assets\\fonts\\ /e /i /h",
+    "sass-run-dev": "sass --watch --update --style=compressed src/assets/styles/v1/sharedbox.scss:dist/assets/css/v1/sharedbox.css",
+    "sass-run-prod": "sass --no-source-map --style=compressed src/assets/styles/v1/sharedbox.scss:dist/assets/css/v1/sharedbox.css src/assets/styles/fonts/:dist/assets/css/fonts/ src/assets/styles/icons:dist/assets/css/icons src/assets/styles/brands:dist/assets/css/brands",
+
+    "del-dist": "rimraf dist dist.min",
+    "minified": "esbuild src/index.ts --bundle --outfile=dist.min/index.min.js",
+    "build": "npm run del-dist && tsc && npm run sass-run-prod && npm run cp-fonts",
+    
+    "dev": "ts-node ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharedbox/sharedbox-js.git"
+  },
+  "keywords": [
+    "sharedbox",
+    "sharedbox-js"
+  ],
+  "author": "Rafael Costi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sharedbox/sharedbox-js/issues"
+  },
+  "homepage": "https://sharedbox.com.br",
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/node": "^18.13.0",
+    "bootstrap": "^5.2.3",
+    "cors": "^2.8.5",
+    "esbuild": "0.17.10",
+    "sass": "^1.58.3",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "rimraf": "^4.1.3"
+  }
+}

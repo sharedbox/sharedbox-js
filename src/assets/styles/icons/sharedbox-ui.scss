@@ -1,0 +1,234 @@
+:root, :host {
+  --sb-transport: normal 400 1em/1 "SharedBox UI Regular"; 
+}
+
+@font-face {
+  font-family: 'SharedBox UI Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("./../../../fonts/icons/SharedBoxUI-Regular.ttf");
+}
+
+.sb-ui {
+  font-family: 'SharedBox UI Regular';
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/* align left */
+.sb-align-left:before {
+  content: "\f036";
+}
+
+/* align center */
+.sb-align-center:before {
+  content: "\f037";
+}
+
+/* align justify */
+.sb-align-justify:before {
+  content: "\f039";
+}
+
+/* align right */
+.align-right:before {
+  content: "\f038";
+}
+
+/* arrow left */
+.sb-arrow-left:before {
+  content: "\f060";
+}
+
+/* arrow right */
+.sb-arrow-right:before {
+  content: "\f061";
+}
+
+/* arrow down right from square */
+.sb-arrow-down-right-from-square:before {
+  content: "\f901";
+}
+
+/* arrow up right from square */
+.sb-arrow-up-right-from-square:before {
+  content: "\f08e";
+}
+
+/* bars */
+.sb-bars:before {
+  content: "\f0c9";
+}
+
+/* bold */
+.sb-bold:before {
+  content: "\f032";
+}
+
+/* check */
+.sb-check:before {
+  content: "\f00c";
+}
+
+/* Circle phone */
+.sb-circle-phone:before {
+  content: "\e11b";
+}
+
+/* Circle plus */
+.sb-circle-plus:before {
+  content: "\f055";
+}
+
+/* file lines */
+.sb-file-lines:before {
+  content: "\f15c";
+}
+
+/* Grid 2 */
+.sb-grid-2:before {
+  content: "\e196";
+}
+
+/* House */
+.sb-house:before {
+  content: "\f015";
+}
+
+/* horizontal rule */
+.sb-horizontal-rule:before {
+  content: "\f86c";
+}
+
+/* h1 */
+.sb-h1:before {
+  content: "\f313";
+}
+
+/* h2 */
+.sb-h1:before {
+  content: "\f314";
+}
+
+/* h3 */
+.sb-h1:before {
+  content: "\f315";
+}
+
+/* image */
+.sb-image:before {
+  content: "\f03e";
+}
+
+/* italic */
+.sb-italic:before {
+  content: "\f033";
+}
+
+/* list */
+.sb-list:before {
+  content: "\f03a";
+}
+
+/* list ol */
+.sb-list-ol:before {
+  content: "\f0cb";
+}
+
+/* lock */
+.sb-lock:before {
+  content: "\f023";
+}
+
+/* Newspaper */
+.sb-newspaper:before {
+  content: "\f1ea";
+}
+
+/* palette */
+.sb-palette:before {
+  content: "\f53f";
+}
+
+/* pen to square */
+.sb-pen-to-square:before {
+  content: "\f044";
+}
+
+/* plus */
+.sb-plus:before {
+  content: "\2b";
+}
+
+/* right to bracket */
+.sb-right-to-bracket:before {
+  content: "\f2f6";
+}
+
+/* right from bracket */
+.sb-right-from-bracket:before {
+  content: "\f2f5";
+}
+
+/* rotate right */
+.sb-rotate-right:before {
+  content: "\f2f9";
+}
+
+/* rotate left */
+.sb-rotate-left:before {
+  content: "\f2ea";
+}
+
+/* square arrow down right */
+.square-arrow-down-right:before {
+  content: "\e262";
+}
+
+/* strikethrough */
+.sb-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* subscript */
+.sb-subscript:before {
+  content: "\f12c";
+}
+
+/* superscript */
+.sb-subscript:before {
+  content: "\f12b";
+}
+
+/* text */
+.sb-text:before {
+  content: "\f893";
+}
+
+/* trash xmark */
+.sb-trash-xmark:before {
+  content: "\e2b4";
+}
+
+/* underline */
+.sb-underline:before {
+  content: "\f0cd";
+}
+
+/* user */
+.sb-user:before {
+  content: "\f007";
+}
+
+/* user plus */
+.sb-user-plus:before {
+  content: "\f234";
+}
+
+/* xmark */
+.sb-xmark:before {
+  content: "\f00d";
+}
+

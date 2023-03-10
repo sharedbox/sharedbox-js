@@ -1,0 +1,63 @@
+.sbx-form-control {
+  position: relative;
+  padding-top: $sbx-margin-default-md-value;
+  padding-bottom: $sbx-margin-default-sm-value;
+  width: 100%;
+
+  label {
+    font-weight: 500;
+    left: 0;
+    margin-top: 13px;
+    padding-top: $sbx-margin-default-md-value;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    transition: all .3s ease-out;
+    width: 100%;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+  }
+
+  input {
+    &[type=text], &[type=tel], &[type=number], &[type=password], &[type=week], &[type=email], &[type=time], &[type=month], &[type=datetime-local], &[type=url] {
+      border: 0;
+      border-bottom: 2px solid;
+      border-radius:0;
+      outline: none;
+      min-width: 180px;
+      padding-top: $sbx-margin-default-sm-value;
+      padding-bottom: $sbx-margin-default-sm-value;
+      font-size: 16px;
+      transition: all .3s ease-out;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+      -webkit-appearance:none;
+      width: 100%;
+
+      &:focus, &:not(:placeholder-shown) {
+        border-bottom: 2px solid;
+
+        ~ label {
+          font-size: 0.8rem;
+          margin-top: -.3rem;
+        }
+      }
+
+      &::placeholder{
+        color:transparent;
+      }
+
+      &:required:invalid + label {
+        color: red;
+      }
+
+      &:focus:required:invalid {
+        border-bottom: 2px solid red;
+      }
+
+      &:required:invalid + label:before{
+        content: '*';
+      }
+    }
+  }
+}
